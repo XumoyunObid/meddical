@@ -1,0 +1,35 @@
+.contact-img {
+  position: relative;
+  width: 100vw;
+  z-index: 1;
+  opacity: .7;
+}
+.contact-fon {
+  width: 100vw;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  z-index: 10;
+}
+.contact-hero-title {
+  position: absolute;
+  top: 90px;
+  z-index: 1;
+}
+.contact-text {
+  font-family: Work Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.contact-title {
+  font-family: Yeseva One;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#1F2B6C;
+}
