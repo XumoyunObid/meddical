@@ -4,7 +4,8 @@ import { Header } from './../../layout/header/header';
 export const Home = () => {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
+      Home Page
     </div>
   )
 }
