@@ -1,0 +1,59 @@
+.about-card-2 {
+    padding: 4rem 11.688rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+.welcome {
+    Width: 341px;
+    Height: 21px;
+    Top: 474px;
+    Left: 615px;
+    Font: Work Sans;
+    Font-weight: 700;
+    Font-size: 18px;
+    Letter-spacing: 16%;
+    color: #159EEC;
+}
+.bestCare {
+    width: 446px;
+    font-size: 2.5rem;
+    color: rgb(31, 43, 108);
+    font-family: Yeseva One;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.about-card-title ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 2;
+    text-align: left;
+    margin: 1rem;
+}
+.lorem1 {
+    margin: 2rem 0 1rem;
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.lorem2 {
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+}
