@@ -3,7 +3,7 @@ import Calendar from './../../icons/calendar';
 import Users from './../../icons/users';
 import Money from './../../icons/money';
 
-const Welcome = () => {
+const Welcomeeee = () => {
   return (
     <div>
       <div className="welcomee">
@@ -30,4 +30,4 @@ const Welcome = () => {
   )
 }
 
-export default Welcome
+export default Welcomeeee
