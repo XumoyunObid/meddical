@@ -1,0 +1,39 @@
+.freeCards {
+    width: 317px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.free-title {
+    padding: 40px 20px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.free-title h3 {
+    color: rgb(31, 43, 108);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.free-title p {
+    margin: .8rem 0;
+    color: rgb(33, 33, 36);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.free-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: blue;
+    border: 0;
+    font-size: 1rem;
+    background-color: transparent;
+}
