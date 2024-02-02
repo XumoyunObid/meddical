@@ -57,3 +57,65 @@
     line-height: 140%;
     text-align: left;
 }
+
+/* johnDoe-div */
+.johnDoe-div {
+    width: 1519px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    text-align: center;
+    background: no-repeat url(../../assets/AboutImg/johnDoe-bg.svg) 0 0 / 100% 100%;
+}
+.johnDoe-div h5 {
+    color: rgb(252, 254, 254);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.john-img {
+    width: 45px;
+    height: 30px;
+    margin: 0 auto;
+}
+.johnDoe-div p {
+    font-size: 22px;
+    color: white;
+}
+.line {
+    width: 200px;
+    border: .1rem solid white;
+    border-radius: .5rem;
+}
+
+/* threeCircle */
+.threeCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.slider-circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+.circle1 {
+    border-radius: 50px;
+    background: rgb(252, 254, 254);
+}
+.circle2 {
+    border-radius: 50px;
+    background: rgb(191, 210, 248);
+}
+.circle3 {
+    border-radius: 50px;
+    background: rgb(252, 254, 254);
+}
+/* johnDoe-div end */

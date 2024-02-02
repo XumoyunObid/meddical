@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import img2 from '../../assets/AboutImg/aboute-img2.svg'
+import johnImg from '../../assets/AboutImg/john-img.svg'
 
 const AboutCard2 = () => {
   try {
@@ -29,10 +30,32 @@ const AboutCard2 = () => {
   } catch (e) { console.log(e); }
 }
 
+const JohnDoe = () => {
+  try {
+    return <div className="johnDoe-div">
+      <div className="john-img"> <img src={johnImg} alt="" /> </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+        Quisque placerat scelerisque tortor ornare ornare. Quisque <br />
+        placerat scelerisque felis vitae tortor augue. Velit nascetur <br />
+        Consequat faucibus porttitor enim et.
+      </p>
+      <p className='line'></p>
+      <h5>John Doe</h5>
+      <div className="threeCircle">
+        <p className='circle1 slider-circle'></p>
+        <p className='circle2 slider-circle'></p>
+        <p className='circle3 slider-circle'></p>
+      </div>
+    </div>
+  } catch (e) { console.log(e); }
+}
+
 const About = () => {
   try {
     return <>
       <AboutCard2 />
+      <JohnDoe />
     </>
   } catch (e) { console.log(e); }
 }
