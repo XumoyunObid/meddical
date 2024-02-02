@@ -22,6 +22,7 @@ export const Home = () => {
             </div>
           </div>
       </div>
+      
       <Welcome/>
       <Nigga/>
       <Services/>

@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 import "./contact.css";
-import img from "../../assets/contact-img/Frame2.png"
+import img from "../../assets/contact-img/Frame2.png";
 import img1 from "../../assets/contact-img/Rectangle3.png";
-import { IframeComponent } from './contact-maps';
-import { Link } from 'react-router-dom';
+import { IframeComponent } from "./contact-maps";
+import { Link } from "react-router-dom";
+import { ContactGet } from "./contact-get";
+import News from "../home/News";
+import Touch from "../home/Touch";
 
 export const Contacts = () => {
   return (
@@ -26,8 +29,11 @@ export const Contacts = () => {
         <div className="linear"></div>
       </div>
       <div className="contact-map">
-        <IframeComponent/>
+        <IframeComponent />
       </div>
+      <ContactGet />
+      <News />
+      <Touch />
     </div>
   );
-}
+};

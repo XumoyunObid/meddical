@@ -63,8 +63,52 @@
     border: 0px;
 }
 /* *********************************************/
-.welcome
+.header2
 {
+    display: flex;
+    gap: 20px;
+}
+.calendars
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 40px;
+    background: #1F2B6C;
+    margin-top: -100px;
+}
+.users
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 40px;
+    background: #BFD2F8;
+    margin-top: -100px;
+}
+.money
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 40px;
+    background:#159EEC;
+    margin-top: -100px;
+}
+.calendarsh1
+{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.welcomee
+{
+    width: 80%;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,21 +116,21 @@
     gap: 20px;
     padding-top: 20px;
 }
-.welcome h1
+.welcomee h1
 {
     color: #159EEC;
     font-weight: 700;
     font-size: 18px;
     text-align: center;
 }
-.welcome h2
+.welcomee h2
 {
     color: #1F2B6C;
     font-weight: 400;
     font-size: 32px;
     text-align: center;
 }
-.welcome p
+.welcomee p
 {
     color: #212124;
     font-weight: 400;
@@ -95,7 +139,7 @@
     width: 658px;
     line-height: 22.4px;
 }
-.welcome a
+.welcomee a
 {
     color: #159EEC;
     font-weight: 400;
@@ -321,7 +365,7 @@
 }
 .appointment2
 {
-    width: 40%;
+    width: 50%;
     border-radius: 5px;
 }
 .labell
