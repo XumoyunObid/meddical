@@ -1325,6 +1325,11 @@ i@^0.3.7:
   resolved "https://registry.yarnpkg.com/i/-/i-0.3.7.tgz#2a7437a923d59c14b17243dc63a549af24d85799"
   integrity sha512-FYz4wlXgkQwIPqhzC5TdNMLSE5+GS1IIDJZY/1ZiEPCT2S3COUVZeT5OW4BmW4r5LHLQuOosSwsvnroG9GR59Q==
 
+iframe@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/iframe/-/iframe-1.0.0.tgz#58e74822b178a0579d09cd169640fb9537470ef5"
+  integrity sha512-Gn9nkImXrU8xQLvljaVnHFimYwBehKUcHoPG2YaWlXboA1rMsJ2uBzlN5kihaIbdami6PetBINnKR2rxS6GYig==
+
 ignore@^5.2.0:
   version "5.3.0"
   resolved "https://registry.npmjs.org/ignore/-/ignore-5.3.0.tgz"
@@ -1865,7 +1870,7 @@ react-router@6.21.3:
 
 react@^18.2.0:
   version "18.2.0"
-  resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
