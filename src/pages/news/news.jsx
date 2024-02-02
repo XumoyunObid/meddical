@@ -9,6 +9,7 @@ import new3 from "../../assets/news/thirdNew.png";
 import new4 from "../../assets/news/fourthNew.png";
 import SubNew from "./subNews/SubNew";
 import Categories from "./categories/Categories";
+import Pagination from "./paagination/Pagination";
 
 export const News = () => {
   return (
@@ -20,6 +21,7 @@ export const News = () => {
           <New img={new2} />
           <New img={new3} />
           <New img={new4} />
+          <Pagination />
         </div>
         <div className="right">
           <SubNew />
