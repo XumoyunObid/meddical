@@ -62,7 +62,7 @@ export const ExportNewsCard = () => {
 }
 
 
-const News = () => {
+const Newseee = () => {
     return (
         <div className="news">
             <h1>Better information, Better health</h1>
@@ -72,4 +72,4 @@ const News = () => {
     )
 }
 
-export default News
+export default Newseee

@@ -1,12 +1,12 @@
 import "./../home/home.css";
-import Welcome from "./welcome";
 import Nigga from "./nigga";
 import Services from './Services';
 import Specialities from "./Specialities";
-import Appointment from './Appointment';
 import Caredoctors from './Caredoctors';
-import News from './News';
 import Touch from './Touch';
+import Welcomeeee from "./welcome";
+import Appointmenteee from './Appointment';
+import Newseee from "./News";
 
 export const Home = () => {
   return (
@@ -22,13 +22,14 @@ export const Home = () => {
             </div>
           </div>
       </div>
-      <Welcome/>
+
+      <Welcomeeee/>
       <Nigga/>
       <Services/>
       <Specialities/>
-      <Appointment/>
+      <Appointmenteee/>
       <Caredoctors/>
-      <News/>
+      <Newseee/>
       <Touch/>
 
     </div>
