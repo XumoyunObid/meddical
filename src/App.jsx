@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { MainLayout } from "./layout/main-layout";
+import { MainLayout } from "./layout/main-layout.jsx";
 import { nanoid } from "nanoid";
 import { main_pages } from "./router/main-router";
 

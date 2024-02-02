@@ -1,3 +1,6 @@
+.contact {
+  margin-top: 0px;
+}
 .contact-img {
   position: relative;
   width: 100vw;
@@ -7,13 +10,13 @@
 .contact-fon {
   width: 100vw;
   position: absolute;
-  top: 18px;
+  top: 133px;
   left: 0;
   z-index: 10;
 }
 .contact-hero-title {
   position: absolute;
-  top: 90px;
+  top: 190px;
   z-index: 1;
 }
 .contact-text {
