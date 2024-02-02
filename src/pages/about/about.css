@@ -1,3 +1,29 @@
+.about-hero {
+    width: 100%;
+    height: 250px;
+    padding: 76px 186px;
+    background: no-repeat url(../../assets/AboutImg/about-hero.png) 0 0 / 100% 100%;
+}
+.about-hero-text {
+    width: 124px;
+    height: 25px;
+    color: rgb(31, 43, 108);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.about-ero-title {
+    color: rgb(31, 43, 108);
+    font-family: Yeseva One;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 .about-card-2 {
     padding: 4rem 11.688rem;
     display: flex;
@@ -93,7 +119,6 @@
     border: .1rem solid white;
     border-radius: .5rem;
 }
-
 /* threeCircle */
 .threeCircle {
     display: flex;

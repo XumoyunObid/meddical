@@ -3,6 +3,14 @@ import './about.css'
 import img2 from '../../assets/AboutImg/aboute-img2.svg'
 import johnImg from '../../assets/AboutImg/john-img.svg'
 
+export const AboutHero = ({ pageName, pageTitle }) => {
+  try {
+    return <div className="about-hero">
+      <p className='about-hero-text'>Home / <span> {pageName} </span></p>
+      <h2 className='about-ero-title'>{pageTitle}</h2>
+    </div>
+  } catch (e) {console.log(e);}
+}
 const AboutCard2 = () => {
   try {
     return <div className='about-card-2'>
@@ -29,8 +37,7 @@ const AboutCard2 = () => {
     </div>
   } catch (e) { console.log(e); }
 }
-
-const JohnDoe = () => {
+export const JohnDoe = () => {
   try {
     return <div className="johnDoe-div">
       <div className="john-img"> <img src={johnImg} alt="" /> </div>
@@ -54,10 +61,10 @@ const JohnDoe = () => {
 const About = () => {
   try {
     return <>
+      <AboutHero pageName={'About'} pageTitle={'About us'} />
       <AboutCard2 />
       <JohnDoe />
     </>
   } catch (e) { console.log(e); }
 }
-
 export default About
