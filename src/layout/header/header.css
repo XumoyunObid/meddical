@@ -1,3 +1,9 @@
+#header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 9999999;
+}
 .header-top {
   width: 100%;
   padding-block: 15px;

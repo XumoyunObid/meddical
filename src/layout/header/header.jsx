@@ -10,7 +10,7 @@ import "./header.css";
 export const Header = () => {
   try {
     return (
-      <header className="header">
+      <header id="header" className="header">
         <div className="header-top">
           <div className="header-logo">
             {" "}
