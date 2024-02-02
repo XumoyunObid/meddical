@@ -6,14 +6,7 @@ import { ExportDoctorsCard } from '../home/Caredoctors'
 import News from '../home/News';
 import Touch from '../home/Touch';
 
-export const AboutHero = ({ pageName, pageTitle }) => {
-  try {
-    return <div className="about-hero">
-      <p className='about-hero-text'>Home / <span> {pageName} </span></p>
-      <h2 className='about-ero-title'>{pageTitle}</h2>
-    </div>
-  } catch (e) {console.log(e);}
-}
+
 const AboutCard2 = () => {
   try {
     return <div className='about-card-2'>
