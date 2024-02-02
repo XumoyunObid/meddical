@@ -1,0 +1,30 @@
+
+.header-top {
+    width: 100%;
+    padding: 1.188rem 11.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.header-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+.header-icons li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    font-weight: 500;
+}
+.header-icons li i {
+    font-size: 2rem;
+    color: black;
+}
+.header-icons li div .span {
+    color: blue;
+}
+/* .header-bottom {} */

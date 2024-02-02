@@ -1,11 +1,11 @@
 import React from 'react'
+import './about.css'
 
 const About = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+  try {
+    return <>      
+    </>
+  } catch (e) {console.log(e);}
 }
 
 export default About
