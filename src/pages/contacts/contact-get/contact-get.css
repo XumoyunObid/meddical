@@ -1,5 +1,7 @@
 .contact-get {
   display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
 }
 .contact_get-block1-text {
   font-family: Work Sans;
@@ -16,8 +18,9 @@
   font-weight: 400;
   line-height: 37px;
   letter-spacing: 0em;
-  text-align: center;
+  /* text-align: center; */
   color: #1f2b6c;
+  margin-bottom: 30px;
 }
 .contact_get-clients input::placeholder {
   font-family: Work Sans;
@@ -100,10 +103,20 @@
 }
 .contact_get-emergency a {
   font-family: Work Sans;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
   color: #1f2b6c;
+}
+.contact_get-location {
+  width: 233px;
+  height: 233px;
+  color: #bfd2f8;
+  background: #1f2b6c;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.contact_get-block2 {
 }
