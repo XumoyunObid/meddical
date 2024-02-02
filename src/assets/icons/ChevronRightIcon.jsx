@@ -1,20 +1,11 @@
 const ChevronRightIcon = () => {
   return (
-    <svg
-      width={13}
-      height={13}
-      viewBox="0 0 13 13"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M7.21795 11.5L11.8333 6.5M11.8333 6.5L7.21795 1.5M11.8333 6.5H1"
-        stroke="#1F2B6C"
-        strokeWidth={2}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+    <svg width="12.833984" height="12.008301" viewBox="0 0 12.834 12.0083" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+  <desc>Created with Pixso.</desc>
+  <defs />
+  <path id="Vector" d="M7.21777 11.0042L11.8335 6.00415L7.21777 1.00415M11.8335 6.00415L1 6.00415" stroke="#1F2B6C" strokeOpacity={1.000000} strokeWidth={2.000000} strokeLinejoin="round" />
+</svg>
+
   );
 };
 
