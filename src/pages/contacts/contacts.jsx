@@ -33,7 +33,7 @@ export const Contacts = () => {
       </div>
       <ContactGet />
       <News />
-      <Touch />
+      {/* <Touch /> */}
     </div>
   );
 };

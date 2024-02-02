@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
+// import img from "../../assets/appoinment-img/Rectangle31";
+import { Link } from "react-router-dom";
 
-export const Appointment = () => {
-  return (
-    <div>Appointment</div>
-  )
-}
+export const Appointments = () => {
+  return <div></div>;
+};
