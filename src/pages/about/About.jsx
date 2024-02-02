@@ -2,6 +2,9 @@ import React from 'react'
 import './about.css'
 import img2 from '../../assets/AboutImg/aboute-img2.svg'
 import johnImg from '../../assets/AboutImg/john-img.svg'
+import { ExportDoctorsCard } from '../home/Caredoctors'
+import News from '../home/News';
+import Touch from '../home/Touch';
 
 export const AboutHero = ({ pageName, pageTitle }) => {
   try {
@@ -64,6 +67,13 @@ const About = () => {
       <AboutHero pageName={'About'} pageTitle={'About us'} />
       <AboutCard2 />
       <JohnDoe />
+      <div className="doctors-divs">
+        <h1>Trusted Care</h1>
+        <h2>Our Doctors</h2>
+        <ExportDoctorsCard />
+      </div>
+      <News />
+      <Touch />
     </>
   } catch (e) { console.log(e); }
 }

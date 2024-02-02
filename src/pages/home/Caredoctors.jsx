@@ -6,21 +6,18 @@ import Linkedin from "../../icons/linkedin";
 import Facebook from './../../icons/facebook';
 import Instagram from './../../icons/instagram';
 
-const Caredoctors = () => {
-  return (
-    <div className='care'>
-        <h1>Trusted Care</h1>
-        <h2>Our Doctors</h2>
-        <div className="duxtirCart">
+export const ExportDoctorsCard = () => {
+    try {
+        return <div className="duxtirCart">
             <div className="doctorCards">
                 <img src={duxtir1} />
                 <div className="purpleBG">
                     <h1>Doctor’s Name</h1>
                     <h2>Neurology</h2>
                     <div className="inkedin">
-                        <Linkedin/>
-                        <Facebook/>
-                        <Instagram/>
+                        <Linkedin />
+                        <Facebook />
+                        <Instagram />
                     </div>
                 </div>
                 <button>View Profile</button>
@@ -31,9 +28,9 @@ const Caredoctors = () => {
                     <h1>Doctor’s Name</h1>
                     <h2>Neurology</h2>
                     <div className="inkedin">
-                        <Linkedin/>
-                        <Facebook/>
-                        <Instagram/>
+                        <Linkedin />
+                        <Facebook />
+                        <Instagram />
                     </div>
                 </div>
                 <button>View Profile</button>
@@ -44,17 +41,26 @@ const Caredoctors = () => {
                     <h1>Doctor’s Name</h1>
                     <h2>Neurology</h2>
                     <div className="inkedin">
-                        <Linkedin/>
-                        <Facebook/>
-                        <Instagram/>
+                        <Linkedin />
+                        <Facebook />
+                        <Instagram />
                     </div>
                 </div>
                 <button>View Profile</button>
             </div>
         </div>
-        
-    </div>
-  )
+    } catch (e) { console.log(e); }
+}
+
+
+const Caredoctors = () => {
+    return (
+        <div className='care'>
+            <h1>Trusted Care</h1>
+            <h2>Our Doctors</h2>
+            <ExportDoctorsCard />
+        </div>
+    )
 }
 
 export default Caredoctors

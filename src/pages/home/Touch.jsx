@@ -5,7 +5,7 @@ import Messaageicon from './../../icons/messaage-icon';
 import Time from './../../icons/time';
 import Locationicon from './../../icons/location-icon';
 
-const Touch = () => {
+export const Touch = () => {
   return (
     <div className='touch'>
         <h1>Get in touch</h1>
