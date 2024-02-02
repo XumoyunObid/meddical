@@ -49,3 +49,10 @@
   padding-top: -10px;
   margin-top: -10px;
 }
+.contact-map {
+  text-align: center;
+}
+iframe {
+  width: 80%;
+  margin-block: 50px;
+}
