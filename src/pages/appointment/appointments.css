@@ -1,25 +1,22 @@
-.contact {
-  margin-top: 0px;
-}
-.contact-img {
+.appoinments-hero-img {
   position: relative;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
   opacity: 0.7;
 }
-.contact-fon {
+.appoinments-hero-img1 {
   width: 100vw;
   position: absolute;
-  top: 133px;
+  top: 134px;
   left: 0;
   z-index: 10;
 }
-.contact-hero-title {
+.appointments-hero-title {
   position: absolute;
   top: 190px;
   z-index: 1;
 }
-.contact-text {
+.appointments-text {
   font-family: Work Sans, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -27,7 +24,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.contact-title {
+.appointments-title {
   font-family: Yeseva One;
   font-size: 48px;
   font-weight: 400;
@@ -35,24 +32,4 @@
   letter-spacing: 0em;
   text-align: left;
   color: #1f2b6c;
-}
-.linear {
-  display: inline-block;
-  width: 100vw;
-  height: 20px;
-  background-image: linear-gradient(
-    to right,
-    #bfd2f8 30%,
-    #1f2b6c 20% 60%,
-    #159eec 60%
-  );
-  padding-top: -10px;
-  margin-top: -10px;
-}
-.contact-map {
-  text-align: center;
-}
-iframe {
-  width: 80%;
-  margin-block: 50px;
 }
