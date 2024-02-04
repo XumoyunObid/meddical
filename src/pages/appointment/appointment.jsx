@@ -43,8 +43,8 @@ export const Appointments = () => {
           <div className="shedul-map">
             <IframeComponent />
           </div>
-          <Touch/>
         </div>
+          <Touch/>
       </div>
     </div>
   );
