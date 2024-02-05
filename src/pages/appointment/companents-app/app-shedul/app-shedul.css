@@ -1,0 +1,42 @@
+.app-shedule {
+  width: 581px;
+  background: #1f2b6c;
+  padding: 40px 40px;
+  color: white;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.shedul-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+}
+.shedul-text1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+  padding-bottom: 40px;
+}
+.shedul-title {
+  font-family: Yeseva One;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bfd2f8;
+}
+.shedule-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
