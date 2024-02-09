@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import img2 from '../../assets/AboutImg/aboute-img2.svg'
+import { AboutHero } from './components/AboutHero'
 import johnImg from '../../assets/AboutImg/john-img.svg'
 import { ExportDoctorsCard } from '../home/Caredoctors'
 import News from '../home/News';

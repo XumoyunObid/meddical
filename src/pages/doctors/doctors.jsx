@@ -1,5 +1,6 @@
 import React from 'react';
-import { AboutHero, JohnDoe } from '../about/About';
+import {JohnDoe } from '../about/About';
+import {AboutHero} from '../about/components/AboutHero'
 import { ExportDoctorsCard } from '../home/Caredoctors';
 import News from '../home/News';
 import Touch from '../home/Touch';
