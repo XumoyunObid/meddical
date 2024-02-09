@@ -403,8 +403,7 @@
   font-size: 18px;
 }
 .news {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 5rem 0 4rem;
 }
 .news h1 {
   color: rgb(21, 158, 236);
@@ -469,6 +468,9 @@
   align-items: center;
   gap: 5px;
 }
+.touch {
+  margin: 8rem 0;
+}
 .touch h1 {
   color: rgb(21, 158, 236);
   font-family: Work Sans;
@@ -479,7 +481,8 @@
   text-align: center;
   text-transform: uppercase;
 }
-.touch h2 {
+.touch .touch-h2 {
+  margin: .8rem 0 3.4rem;
   color: rgb(31, 43, 108);
   font-family: Yeseva One;
   font-size: 32px;

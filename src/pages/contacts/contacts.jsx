@@ -6,7 +6,7 @@ import { IframeComponent } from "./contact-maps";
 import { Link } from "react-router-dom";
 import { ContactGet } from "./contact-get";
 import News from "../home/News";
-import Touch from "../home/Touch";
+// import Touch from "../home/Touch";
 
 export const Contacts = () => {
   return (
